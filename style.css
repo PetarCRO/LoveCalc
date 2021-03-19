@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F7567C;
+}
+
+
+header h1{
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 5rem;
+}
+
+header h3{
+  text-align: center;
+  font-size: 3rem;
+}
+
+header hr{
+  border: 0.1px solid white;
+  width: 50%;
+  margin: auto;
+}
+
+section{
+  margin-top: 8rem;
+}
+
+img{
+  width: 80%;
+  margin-left: 9%;
+  position: relative;
+}
+
+button{
+  position: absolute;
+  top: 30rem;
+  left: 40rem;
+
+  padding: 0.8rem 4rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #F7567C;
+  border-radius: 30px;
+}
+
+button:hover {
+background-color: yellow;
+}
+
+.form-control{
+  margin-top: 30%;
+}
+
+#percentage{
+  position: absolute;
+  top: 30rem;
+  left: 42%;
+}
